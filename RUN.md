@@ -23,3 +23,13 @@ torch
 **Note:**
 - Do not run with `python main.py` (imports will break).
 - First run may take time (model downloads).
+
+
+
+FOR Indian stocks 
+
+1. Go to Stock_Sentiment_Analysis\services\price_service.py
+
+2. Comment the current def _load_price_data(symbol: str):
+
+3. UN-comment the commented def _load_price_data(symbol: str):
