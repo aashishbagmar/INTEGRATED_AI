@@ -1,0 +1,124 @@
+# ===============================
+# Python bytecode & caches
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Build / packaging
+# ===============================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+sdist/
+parts/
+var/
+lib/
+lib64/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===============================
+# Testing / coverage
+# ===============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Environment variables / secrets
+# ===============================
+.env
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# Data files (finance / ML safety)
+# ===============================
+*.csv
+*.db
+*.sqlite3
+
+# ===============================
+# ML / AI model artifacts
+# ===============================
+*.h5
+*.pkl
+*.joblib
+*.sav
+
+# ===============================
+# HuggingFace / Transformers cache
+# ===============================
+.cache/
+.cache/huggingface/
+.cache/torch/
+
+# ===============================
+# Model / checkpoint folders
+# ===============================
+models/
+checkpoints/
+
+# ===============================
+# Temporary / backup files
+# ===============================
+*.bak
+*.swp
+*.swo
+
+# ===============================
+# Pyenv
+# ===============================
+.python-version
+
+# ===============================
+# Type checkers
+# ===============================
+.mypy_cache/
+.dmypy.json
+.pyre/
